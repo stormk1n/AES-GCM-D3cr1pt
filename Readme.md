@@ -1,3 +1,9 @@
+## Side project caused by a minor derail on [HTB - Cohort lab](https://www.hackthebox.com/machines/Cohort) 
+
+### Purpose
+Decrypts the AES-GCM used to obfuscate the JS
+
+### Usage
 Copy the ./Sample\ JS\ Snippets/obfuscated.js code and crack it with [webcrack](https://webcrack.netlify.app/)
 
 once cracked, notice the file is encrypted with AES, tried decoding it at runtime as the browser parsed it but no luck there, same with cyberchef.
@@ -12,8 +18,3 @@ Now, using the D3cr1pt.py script alongside the file, as
 ```bash
 python3 D3cr1pt.py app.js | tee debuff.js
 ``` 
-
-## Side project caused by a minor derail on [HTB - Cohort lab](https://www.hackthebox.com/machines/Cohort) 
-
-### Purpose
-Decrypts the AES-GCM used to obfuscate the JS
