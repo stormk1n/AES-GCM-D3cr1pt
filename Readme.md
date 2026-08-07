@@ -8,9 +8,9 @@ python3 -m venv pycrypto && \
 source pycrypto/bin/activate && \
 pip install pycryptodome
 ```
-Now, using the d3cr1pt.py script alongside the file, as
+Now, using the D3cr1pt.py script alongside the file, as
 ```bash
-python3 d3cr1pt.py app.js | tee debuff.js
+python3 D3cr1pt.py app.js | tee debuff.js
 ``` 
 
 # Side project caused by a minor derail on [HTB - Cohort lab](https://www.hackthebox.com/machines/Cohort) 
