@@ -13,4 +13,4 @@ Now, using the D3cr1pt.py script alongside the file, as
 python3 D3cr1pt.py app.js | tee debuff.js
 ``` 
 
-# Side project caused by a minor derail on [HTB - Cohort lab](https://www.hackthebox.com/machines/Cohort) 
+## Side project caused by a minor derail on [HTB - Cohort lab](https://www.hackthebox.com/machines/Cohort) 
