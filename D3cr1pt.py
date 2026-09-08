@@ -9,7 +9,7 @@ def fix_padding(b64_string):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 decrypt.py <path_to_app.js>")
+        print("Usage: python3 D3cr1pt.py <path_to_app.js>")
         sys.exit(1)
 
     # 1. Read the app.js file
